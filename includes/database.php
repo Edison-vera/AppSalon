@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect('localhost', 'root', '', '');
+ $db = mysqli_connect('localhost', 'root', '', '');
 
 
 if (!$db) {
@@ -8,4 +8,4 @@ if (!$db) {
     echo "errno de depuración: " . mysqli_connect_errno();
     echo "error de depuración: " . mysqli_connect_error();
     exit;
-}
+} 
