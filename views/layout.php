@@ -14,7 +14,6 @@
             <?php echo $contenido; ?>
         </div>
     </div>
-    
-            
+
 </body>
 </html>
