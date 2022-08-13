@@ -15,7 +15,7 @@ class LoginController {
         echo "Desde logout";
     }
 
-    public static function olive(){
+    public static function olvide(){
         echo "Desde olvide";
     }
 
@@ -23,7 +23,9 @@ class LoginController {
         echo "Desde recuperar";
     }
 
-    public static function crear(){
-        echo "Desde crear";
+    public static function crear(Router $router){
+        if($_SERVER['REQUEST_METHOD'] === 'POST'){
+            echo "Enviaste el formulario";
+        }
     }
 }
