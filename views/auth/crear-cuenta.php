@@ -53,6 +53,6 @@
 
 <div class="acciones">
     <a href="/index.php">¿Ya tienes una cuenta? Inicia Sesión</a>
-    <a href="index.php/olvide">¿Olvidaste tu password?</a>
+    <a href="/index.php/olvide">¿Olvidaste tu password?</a>
 
 </div>
